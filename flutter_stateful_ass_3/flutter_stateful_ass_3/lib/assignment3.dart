@@ -32,6 +32,7 @@ Widget build(BuildContext context){
           width:300,
           height:300,
           ),
+          
           const SizedBox(height:200),
           ElevatedButton(onPressed: showNextImage, child: const Text("next"),),
           const SizedBox(
