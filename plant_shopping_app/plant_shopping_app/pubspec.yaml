@@ -1,3 +1,4 @@
+
 name: plant_shopping_app
 description: "A new Flutter project."
 publish_to: 'none'
@@ -10,7 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^5.1.0 
-  icon_forest: ^1.1.8
+  #icon_forest: ^1.1
+  flutter_svg: ^2.0.10
 
 dev_dependencies:
   flutter_test:
