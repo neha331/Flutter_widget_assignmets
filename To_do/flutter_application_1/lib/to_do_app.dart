@@ -144,8 +144,8 @@ class _ToDoAppState extends State {
     }else{
       setState(() {
         toDoModelObj!.date= dateController.text.trim();
-        toDoModelObj!.title= titleController.text.trim();
-        toDoModelObj!.description= descriptionController.text.trim();
+        toDoModelObj.title= titleController.text.trim();
+        toDoModelObj.description= descriptionController.text.trim();
       });
     }
    }
@@ -327,5 +327,4 @@ class _ToDoAppState extends State {
         ),
     );
   }
-
 }
